@@ -17,7 +17,7 @@ const Store =({obj})=>{
                         <span>کد محصول: </span>
                         <div>{item.id}</div>
                         
-                        <button className="hover:bg-yellow-100 outline outline-offset-2 text-emerald-600  m-2  shadow-lg outline-cyan-500 p-2 bg-lime-100 rounded-lg">اضافه کردن به سبد خرید</button>
+                        <button className="hover:bg-yellow-100 outline outline-offset-2 text-emerald-600  m-2  shadow-lg outline-cyan-500 p-2 bg-lime-100 rounded-lg">اضاف</button>
 
                         </div>
                     </div>
