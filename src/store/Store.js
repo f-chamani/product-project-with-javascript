@@ -1,4 +1,6 @@
 import React from "react"
+//import { useNavigate } from "react-router-dom";
+
 const Store =({obj})=>{
     return(
         <div className=" flex flex-row justify-center items-center "> 
