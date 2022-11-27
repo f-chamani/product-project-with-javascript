@@ -5,7 +5,7 @@ import back from "../assets/images/logo.jpg"
  const Loogin = () => {
   return (
 
-    <div className='h-screen bg-gradient-to-br from-lime-500 via-lime-300 to-yellow-300 flex item-center  justify-center '>
+    <div className='h-screen flex justify-center  justify-items-center bg-gradient-to-br from-lime-500 via-lime-300 to-yellow-300   '>
       <div className='' >
         <div className='bg-white grid grid-cols-2 rounded-2xl overflow-hidden '>
             <div className=' flex flex-col gap-3 text-gray-700'>
