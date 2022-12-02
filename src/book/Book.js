@@ -2,9 +2,11 @@ import React from 'react'
 
 export default function Book() {
   return (
-    <div>
-        <div className='  flex flex-row items-center justify-center flex justify-between gap-2  border-b-2 '>
-            <div className="flex flex-row gap-4 ">
+    <div className="item-center justify-center">
+        <div className='item-center justify-center md:max-w-screen-md
+         flex flex-row  flex justify-between gap-2
+         border-b-2'>
+            <div className="flex flex-row gap-4  ">
                 <div className=" hover:bg-amber-100 gap-1 py-2 ">صحفه اصلی </div>
                 <div className=" hover:bg-amber-100 gap-1  py-2">اشخاص </div>
                 <div className=" hover:bg-amber-100 gap-1  py-2" >تعاریف دانشگاه ها </div>
