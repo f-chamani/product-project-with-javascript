@@ -2,10 +2,8 @@ import React from 'react'
 
 export default function Book() {
   return (
-    <div className="item-center justify-center">
-        <div className='item-center justify-center md:max-w-screen-md
-         flex flex-row  flex justify-between gap-2
-         border-b-2'>
+    <div className="flex item-center justify-center">
+        <div className='item-center justify-center container lg:max-w-screen-xl flex flex-row  flex justify-between gap-2 border-b-2'>
             <div className="flex flex-row gap-4  ">
                 <div className=" hover:bg-amber-100 gap-1 py-2 ">صحفه اصلی </div>
                 <div className=" hover:bg-amber-100 gap-1  py-2">اشخاص </div>
