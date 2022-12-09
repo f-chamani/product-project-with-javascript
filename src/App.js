@@ -1,12 +1,12 @@
 
-import Book from "./book/Book";
+import Movies from "./movies/Movies";
 
 function App() {
 
 
   return (
     <div>
-      <Book/>
+      <Movies/>
     </div>
   );
 }

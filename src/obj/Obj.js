@@ -12,19 +12,10 @@ const obj=[{id:1,name:"گل لاله",price:"120,000T"},
           ,{id:4,name:"گل لاله واژگون",price:"780,000T"},
           {id:4,name:"گل لاله واژگون",price:"780,000T"},
           {id:4,name:"گل لاله واژگون",price:"780,000T"},
-          
+
           {id:5,name:" گل ارکیده",price:"90,000T"}
 
 ]
-
-
-//crate store
-//import in app.js
-//obj in app.js
-//in store.js=>map=>obj
-//install tailwindcss
-//style tailwind
-
 
   return (
     <div className="App">
