@@ -1,78 +1,82 @@
 import React from 'react';
-import {TbMovie} from 'react-icons/tb';
+import {AiOutlineClose} from 'react-icons/ai';
 
-
-function Movies(props) {
+function Movies() {
     return (
-        <div>
-            <div className="flex flex-col items-center justify-center bg-gray-500">
-                <div className=" container lg:max-w-screen-lg text-amber-50  ">
-                    <div className=" flex flex-row justify-between
-                     border-solid border-b-2 border-amber-50 ">
-                        <div className="flex flex-row gap-4">
-                            <div className="hover:bg-red-300 p-5 "> صحفه اصلی</div>
-                            <div className="hover:bg-red-300 p-5 ">اشخاص</div>
-                            <div className="hover:bg-red-300 p-5 ">تعاریف دانشگاه ها</div>
-                            <div className="hover:bg-red-300 p-5 "> درباره ی ما</div>
-                            <div className="hover:bg-red-300 p-5 ">تماس با ما</div>
-                        </div>
-                        <div className="flex flex-row  gap-4">
-                            <div className="hover:bg-red-300 p-5">ورود</div>
-                            <div className="hover:bg-red-300 p-5">ثبت نام</div>
-                        </div>
+        <div className="h-screen flex flex-col relative justify-center items-center ">
+            <div className="flex bg-gray-400 bg-opacity-25 absolute top-0 w-full">
+                <div className=" flex flex-row  justify-between gap-8  py-4 w-full  px-4">
+                    <div className="flex flex-row gap-8">
+                        <div className="w-10"></div>
+                        <div>ثبت نام در سامانه بام</div>
                     </div>
-                    <div className="h-64"></div>
-                    <div className="grid grid-cols-3 gap-8 ">
-                        <div className="col-span-1 flex flex-col">
-                        <div className="  p-8 rounded-xl gap-2 bg-red-300 relative">
-                            <div className="w-52 h-64 bg-green-600 rounded-xl absolute right-1/2 transform translate-x-1/2  -translate-y-1/2">
-                                f
-                            </div>
-                            <div className="font-bold text-3xl flex flex-row items-center justify-center pt-44">
-                                خداحافظ بچه
-                            </div>
-                            <div className="flex flex-row items-center justify-center ">Good bye Baby</div>
-                            <div className=" flex flex-row  flex items-center pt-5 ">
-                                <TbMovie size={22}/>
-                                <span className="pr-2">ژانر:</span>
-                                <span>خانوادگـــی</span>
-                            </div>
-                            <div className=" flex flex-row  flex items-center ">
-                                <TbMovie size={22}/>
-                                <span className="pr-2">سال ساخت:</span>
-                                <span>1391</span>
-                            </div>
-                            <div className=" flex flex-row  flex items-center ">
-                                <TbMovie size={22}/>
-                                <span className="pr-2">کشور ساخت:</span>
-                                <span>ایـــران</span>
-                            </div>
+                    <div className="flex flex-row gap-8">
+                        <div>دانلود همراه بام</div>
+                        <div>راهنمای بام</div>
+                        <div className="w-8"></div>
+                        <div>بام</div>
+                        <div>بانک ملی ایران</div>
+                        <div className="w-10"></div>
+                    </div>
+                </div>
+            </div>
+            <div className="">
+                <div className="flex flex-col justify-center items-center">
+                    <div className="bg-gray-400 w-96 rounded-xl overflow-hidden">
+                        <div className="bg-gray-900 text-amber-50 flex justify-between items-center p-3 pl-5">
+                            <div className="w-8"></div>
+                            <span className="text-xl">سامانه بام بانک ملی ایران</span>
+                            <AiOutlineClose size={22}/>
                         </div>
-                        </div>
-                        <div className="col-span-2  ">
-                            <div>
+
+
+                        <div className="flex flex-col ">
+                            <div className=" flex flex-col px-8 py-3 relative gap-2">
                                 <div>
-                                    <input  className="w-full" type="text"/>
+                                    <input className="bg-yellow-50 bg-opacity-80 rounded p-3 w-full  pr-24" type="text"/>
+                                    <label className="absolute transform right-0  -translate-x-12 translate-y-1/2  text-gray-400 font-bold ">نام
+                                        کاربری</label>
                                 </div>
-                                <div className=" p-8 rounded-xl gap-8 bg-red-300 ">
-                                    <p>
-                                        مرتضی (شهرام حقیقت‌دوست) و لیلا (مهراوه شریفی‌نیا) بچه‌دار نمی‌شوند و تصمیم می‌گیرند
-                                        بچه‌ای را
-                                        به فرزندی قبول کنند اما به‌خاطر سابقهٔ زندان مرتضی، تصمیم می‌گیرند بچه‌ای را بدزدند
-                                        و
-                                        این کار را انجام می‌دهند ولی در خانه صاحب بچه یادداشتی می‌گذارند این یادداشت مد
-                                        رکی می‌شود تا پدر بچه دنبال آن‌ها بگردد در آخر پس از رخدادهای زیاد آن‌ها
-                                        بچه را به خانواده اش تحویل می‌دهند با توصیهٔ مادر بچه (بهاره رهنما) با
-                                        موسسه رویان آشنا می‌شود و پس از کشیدن دوره زندان صاحب پنج قلو می‌شوند.
-                                    </p>
+                                <div>
+                                    <input className="bg-yellow-50 bg-opacity-80 rounded p-3 w-full  pr-24" type="text"/>
+                                    <label className="absolute transform right-0  -translate-x-12 translate-y-1/2  text-gray-400 font-bold ">رمز
+                                        عبور</label>
                                 </div>
+                            </div>
+                            <div>
+                                <label className="flex flex-row-reverse px-8 text-amber-50 text-[12px] underline ">رمز عبور/نام کاربری را فراموش کرده ام </label>
+                            </div>
+
+                            <div className="flex flex-col px-8 py-3 relative gap-2">
+                                <button className="bg-blue-600 p-3  rounded text-amber-50">ورود به سامانه</button>
+                            </div>
+                        </div>
+
+
+                        <div className="bg-gray-900 text-amber-50  p-3">
+                            <div className="flex justify-between px-4 ">
+                                <div>ثبت نام در سامانه بام</div>
+                                <div>غیر فعال شازی بام بان</div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div className="flex bg-black w-full bottom-0 bg-opacity-25 absolute">
+                <div className=" flex flex-row justify-between gap-8  py-4 w-full  px-4">
+                    <div className="flex flex-row gap-8">
+                        <div className="w-10"></div>
+                        <div>تلفن پشتیبانی : 83386-021</div>
+                    </div>
+                    <div className="flex flex-row gap-8">
+                        <div>سایت بانک ملی ایران</div>
+                        <div>تمامی حقوق متعلق به این سایت برای بانک ملی ایران محفوظ است.</div>
+                        <div>Bank Melli Iran - Copyright ©2022</div>
+                        <div className="w-10"></div>
+                    </div>
+                </div>
+            </div>
         </div>
-
     );
 }
 
