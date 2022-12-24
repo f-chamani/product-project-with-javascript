@@ -1,5 +1,5 @@
 import React from "react";
-import back from "../assets/images/logo.jpg";
+import back from "../../assets/images/logo.jpg";
 import FaUser from "react-icons/fa";
 import {AiOutlineUser} from "react-icons/ai";
 import {AiFillLock} from "react-icons/ai";
@@ -19,7 +19,7 @@ const Loogin = () => {
                             <AiFillLock className="absolute  right-2 top-3 " size={23}></AiFillLock>
                             <input id="passwoed" className="bg-gray-200 p-3 rounded-xl  w-full px-9 " placeholder="رمز عبور خود را ورادکنید"></input></label>
                     </div>
-                    <button className="bg-gradient-to-r from-lime-500 via-lime-300  w-full to-yellow-300 p-2 text-gray-600 font-bold rounded-3xl">ورود</button>
+                    <button className="bg-gradient-to-r from-lime-500 via-lime-300  w-full to-yellow-300 p-2 text-gray-600 font-bold rounded-3xl"></button>
 
                     <label className="text-slate-500 text-base">رمز عبور را فراموش کرده اید؟</label>
 
@@ -36,4 +36,3 @@ const Loogin = () => {
     );
 };
 export default Loogin;
-//bg-gradient-to-br from-lime-500 via-lime-300 to-yellow-300
