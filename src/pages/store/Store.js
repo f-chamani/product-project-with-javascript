@@ -1,9 +1,9 @@
 import React from "react"
-//import { useNavigate } from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 const Store =({obj})=>{
     return(
-        <div className=" flex flex-row justify-center items-center "> 
+        <div className=" flex flex-row justify-center items-center ">
          <div className="  grid grid-cols-2 container gap-3 md:grid-cols-4 xl:grid-cols-6 rounded-2xl m-4  xl:max-w-screen-xl 2xl:grid-cols-9" >
          {obj && obj.length>0 && obj.map((item,index)=>{
                 return(
@@ -18,7 +18,7 @@ const Store =({obj})=>{
 
                         <span>کد محصول: </span>
                         <div>{item.id}</div>
-                        
+
                         <button className="hover:bg-yellow-100 outline outline-offset-2 text-emerald-600  m-2  shadow-lg outline-cyan-500 p-2 bg-lime-100 rounded-lg">اضاف</button>
 
                         </div>
@@ -26,7 +26,7 @@ const Store =({obj})=>{
                 )
          })
 
-         } 
+         }
 
          </div>
         </div>

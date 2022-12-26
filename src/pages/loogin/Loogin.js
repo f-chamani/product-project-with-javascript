@@ -19,7 +19,7 @@ const Loogin = () => {
                             <AiFillLock className="absolute  right-2 top-3 " size={23}></AiFillLock>
                             <input id="passwoed" className="bg-gray-200 p-3 rounded-xl  w-full px-9 " placeholder="رمز عبور خود را ورادکنید"></input></label>
                     </div>
-                    <button className="bg-gradient-to-r from-lime-500 via-lime-300  w-full to-yellow-300 p-2 text-gray-600 font-bold rounded-3xl"></button>
+                    <button className="bg-gradient-to-r from-lime-500 via-lime-300  w-full to-yellow-300 p-2 text-gray-600 font-bold rounded-3xl"> ورود</button>
 
                     <label className="text-slate-500 text-base">رمز عبور را فراموش کرده اید؟</label>
 
