@@ -1,26 +1,13 @@
-import React from 'react';
 
- export const Data = () => {
-    const shop=[
-        {id:"1",nam:"چیپس",price:"2000t" ,img:""},
-        {id:"2",nam:"چیپس",price:"2000t" ,img:""},
-        {id:"3",nam:"چیپس",price:"2000t" ,img:""},
-        {id:"4",nam:"چیپس",price:"2000t" ,img:""},
-        {id:"5",nam:"چیپس",price:"2000t" ,img:""},
-        {id:"6",nam:"چیپس",price:"2000t" ,img:""},
-        {id:"7",nam:"چیپس",price:"2000t" ,img:""},
-        {id:"8",nam:"چیپس",price:"2000t" ,img:""},
-        {id:"9",nam:"چیپس",price:"2000t" ,img:""},
-        {id:"10",nam:"چیپس",price:"2000t" ,img:""},
-        {id:"11",nam:"چیپس",price:"2000t" ,img:""},
-        {id:"12",nam:"چیپس",price:"2000t" ,img:""}
-
-    ]
-    return (
-        <div>
-
-        </div>
-    );
-};
-
-export default Data;
+export const shop = [
+    {id : 1 , title : "مداد", image : ""  , price : "23000"},
+    {id : 2 , title : "خودکار", image : ""  , price : "22000"},
+    {id : 3 , title : "دفتر", image : ""  , price : "20000"},
+    {id : 4 , title : "دفترچه", image : ""  , price : "24000"},
+    {id : 5 , title : "قلم", image : ""  , price : "20500"},
+    {id : 6 , title : "پاکن", image : ""  , price : "20000"},
+    {id : 7 , title : "تراش", image : ""  , price : "16000"},
+    {id : 8 , title : "خط کش", image : ""  , price : "50000"},
+    {id : 9 , title : "قیچی", image : ""  , price : "120000"},
+    {id : 10 , title : "غلط گیر", image : ""  , price : "45000"}
+]
