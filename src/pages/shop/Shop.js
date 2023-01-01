@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {shop} from "../../assets/data/Data";
 import {SlBasket} from "react-icons/sl";
 
@@ -16,9 +16,11 @@ const Shop = () => {
     let addBasket = (input) => {
         const resoult = {...input, count: 0}
         setBasket([...basket, resoult])
-        console.log(basket)
     }
+    useEffect(() => {
+        console.log(basket)
 
+    }, [basket])
 
     return (
         <div className=" flex flex-col justify-center items-center h-screen bg-gradient-to-br from-lime-500 via-lime-300 to-yellow-300 ">

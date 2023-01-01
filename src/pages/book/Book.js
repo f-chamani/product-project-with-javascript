@@ -83,7 +83,6 @@ export default function Book() {
                             </div>
                         </div>
                     </div>
-
                     <div className="col-span-4 flex flex-col gap-y-8">
                         <div className="relative">
                             <ImSearch size={25} className="absolute top-3  right-6 top-1"/>

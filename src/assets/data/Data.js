@@ -11,3 +11,12 @@ export const shop = [
     {id : 9 , title : "قیچی", image : ""  , price : "120000"},
     {id : 10 , title : "غلط گیر", image : ""  , price : "45000"}
 ]
+export const dataTest=[
+    {id:1,nam:"فاطمه",family:"چمنی فرد",age:"22"},
+    {id:2,nam:"بهاره",family:"چمنی فرد",age:"16"},
+    {id:1,nam:"ابوالفضل",family:"چمنی فرد",age:"14"},
+    {id:1,nam:"ریحانه",family:"چمنی فرد",age:"17"},
+    {id:1,nam:"ایسان",family:"کشاورز"},
+
+
+]

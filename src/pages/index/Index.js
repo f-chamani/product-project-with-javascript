@@ -11,6 +11,9 @@ const Index = () => {
     const look = () => {
         return navigate("/login")
     }
+    const reyhane = () => {
+        return navigate("/test")
+    }
     return (
         <div>
             <div className="flex flex-col items-center justify-center ">
@@ -31,6 +34,7 @@ const Index = () => {
                     <div className=" hover:bg-gray-100 gap-1 py-2 ">
                         <Link to='/shop'>صحفه اصلی</Link>
                     </div>
+
                     <div className=" hover:bg-gray-100 gap-1  py-2">اشخاص</div>
                     <div className=" hover:bg-gray-100 gap-1  py-2">تعاریف دانشگاه ها</div>
                     <div className=" hover:bg-gray-100 gap-1  py-2">درباره ی ما</div>
@@ -48,8 +52,10 @@ const Index = () => {
                         <GrSearch className="absolute left-2 bg "/>
                         <input className='bg-gray-200 rounded p-1' placeholder="دنبال چی میگردی ؟"/>
                     </div>
+
                 </div>
             </div>
+            <button onClick={reyhane} className="w-80 p-12 bg-red-300 rounded" >تست</button>
 
         </div>
     );
