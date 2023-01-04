@@ -14,6 +14,12 @@ const Index = () => {
     const reyhane = () => {
         return navigate("/test")
     }
+    const buttonShop2 = () => {
+        return navigate("/shop2")
+    }
+    const te13dey = () => {
+        return navigate("/Test13Day")
+    }
     return (
         <div>
             <div className="flex flex-col items-center justify-center ">
@@ -39,6 +45,10 @@ const Index = () => {
                     <div className=" hover:bg-gray-100 gap-1  py-2">تعاریف دانشگاه ها</div>
                     <div className=" hover:bg-gray-100 gap-1  py-2">درباره ی ما</div>
                     <div className=" hover:bg-gray-100 gap-1  py-2">تماس با ما</div>
+                    <button onClick={buttonShop2} className=" hover:bg-gray-100 gap-1  py-2" >فروشگاه دوم</button>
+                    <button onClick={te13dey} className=" hover:bg-gray-100 gap-1  py-2" >فروشگاه سوم</button>
+
+
                 </div>
                 <div className="flex flex-row-reverse gap-6 items-center ">
                     <div className="text-red-400 ">
@@ -55,8 +65,10 @@ const Index = () => {
 
                 </div>
             </div>
-            <button onClick={reyhane} className="w-80 p-12 bg-red-300 rounded" >تست</button>
+            <div className=" flex gap-4">
+                <button onClick={reyhane} className=" p-12 bg-red-300 rounded" >تست</button>
 
+            </div>
         </div>
     );
 };
