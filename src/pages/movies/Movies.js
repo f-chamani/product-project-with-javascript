@@ -52,7 +52,7 @@ function Movies() {
                             </div>
                         </div>
 
-
+<div>hj</div>
                         <div className="bg-gray-900 text-amber-50  p-3">
                             <div className="flex justify-between px-4 ">
                                 <div>ثبت نام در سامانه بام</div>
