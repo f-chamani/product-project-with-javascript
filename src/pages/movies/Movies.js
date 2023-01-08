@@ -50,6 +50,7 @@ function Movies() {
                             <div className="flex flex-col px-8 py-3 relative gap-2">
                                 <button className="bg-blue-600 p-3  rounded text-amber-50">ورود به سامانه</button>
                             </div>
+                            c;
                         </div>
 
 <div>hj</div>
